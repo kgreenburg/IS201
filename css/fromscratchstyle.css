@@ -1,0 +1,129 @@
+/* Body styling to center content with a darker tan background */
+body {
+    font-family: 'Lora', serif;
+    background-color: #D2B48C; /* Darker tan background */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 1.1rem; /* Increased base font size */
+}
+
+/* Main content area with a lighter tan background */
+main {
+    background-color: #F5DEB3; /* Lighter tan for the main content area */
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px; /* Set a reasonable width for the content */
+    border-radius: 8px; /* Add a subtle border radius */
+}
+
+/* Style header */
+header {
+    margin-top: 20px;
+}
+
+h1 {
+    margin: 20px 0;
+    text-decoration: underline; /* Underline the title (Hobbies) */
+    font-size: 2rem; /* Increase font size for main title */
+}
+
+h2 {
+    margin: 20px 0;
+    text-decoration: underline; /* Underline the subtitle (Free Diving) */
+    font-size: 1.5rem; /* Increase font size for subtitle */
+}
+
+h3 {
+    margin: 20px 0;
+    text-decoration: underline; /* Underline "Other Interests" */
+    font-size: 1.4rem; /* Increase font size for section heading */
+}
+
+/* Center video */
+.video-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Left-align and indent bullet points */
+ol, ul {
+    text-align: left;
+    margin-left: 120px; /* Align bullet points with the same margin as the video */
+    padding-left: 20px; /* Padding to bring the bullet points closer to the text */
+}
+
+/* Bold the top-level ordered list items (Sports, Reading, PC Gaming) */
+ol > li {
+    font-weight: bold; /* Make the main ordered list items bold */
+    margin-bottom: 10px; /* Reduce spacing between items */
+}
+
+/* Center and resize image */
+.centered-content {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.responsive-img {
+    width: 50%; /* Reduce image to 50% of its original size */
+    height: auto;
+}
+
+/* Style footer */
+footer {
+    margin-top: 40px;
+    font-size: 0.9rem; /* Slightly increased font size for footer */
+    color: #666;
+}
+
+/* Navbar container */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f5f5f5; /* Light background for the navbar */
+}
+
+/* Style for the brand (Karson Greenburg) */
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: black; /* Set the color for the brand name */
+    text-align: left;
+}
+
+/* Navbar links */
+.navbar-nav {
+    list-style: none; /* Remove bullet points */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Align items horizontally */
+    gap: 20px; /* Spacing between items */
+}
+
+.nav-item {
+    display: inline; /* Display each list item inline */
+}
+
+.nav-link {
+    text-decoration: underline; /* Underline each link */
+    color: #333; /* Set link color */
+    text-decoration-thickness: 1px;
+    font-size: 1rem;
+    padding: 5px 10px;
+    text-align: right;
+}
+
+.nav-link:hover {
+    color: #007BFF; /* Optional: Change color on hover */
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
